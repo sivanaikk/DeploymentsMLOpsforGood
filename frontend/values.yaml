@@ -1,0 +1,8 @@
+namespace:
+  name: test
+ 
+image:
+  repository: 202011501/ml-flask-frontend
+  tag: latest
+
+replicaCount: 3
