@@ -11,6 +11,5 @@ spec:
     protocol: TCP
     targetPort: {{ .Values.service.port }}
   selector:
-    app: nginx
-    tag: alpine
+    app: ml-flask-frontend
   type: {{ .Values.service.type }} 

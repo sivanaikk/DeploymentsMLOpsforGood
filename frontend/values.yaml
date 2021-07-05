@@ -1,5 +1,5 @@
 namespace:
-  name: production
+  name: argocd
  
 image:
   repository: 202011501/ml-flask-frontend
